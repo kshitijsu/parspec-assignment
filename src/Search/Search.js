@@ -10,8 +10,6 @@ const Search = () => {
 
     const onSearch = (searchTerm) => {
         setValue(searchTerm);
-
-        console.log("search", searchTerm);
     }
 
     return (
@@ -45,7 +43,6 @@ const Search = () => {
                             <br/>
                             {item.name}
                             <br/>
-                            {item.items}
                             <br/>
                             {item.address}, {item.pincode}
                         </div>
